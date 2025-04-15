@@ -17,5 +17,5 @@ function calculateVolume() {
   let volume = (1/3) * base * height
 
   // Display
-  document.getElementById('volume').innerHTML = 'Volume of a triangle is: ' + volume + ' cm^3'
+  document.getElementById('volume').innerHTML = 'Volume of a triangle is: ' + volume + ' cm<sup>3<sup>'
 }
